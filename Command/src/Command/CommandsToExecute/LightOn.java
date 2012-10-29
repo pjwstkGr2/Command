@@ -1,20 +1,19 @@
-package CommandsToExecute;
+package Command.CommandsToExecute;
 
 import Command.Interface.CommandInterface;
 import Command.Receiver.Light;
 
-public class LightOff implements CommandInterface {
+public class LightOn implements CommandInterface {
 
 	Light light;
 
-	public LightOff(Light light) {
+	public LightOn(Light light) {
 		this.light = light;
-
 	}
 
 	@Override
 	public void execute() {
-		light.off();
+		light.on();
 
 	}
 

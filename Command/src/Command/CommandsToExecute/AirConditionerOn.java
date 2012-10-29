@@ -1,4 +1,4 @@
-package CommandsToExecute;
+package Command.CommandsToExecute;
 
 import Command.Interface.CommandInterface;
 import Command.Receiver.AirConditioner;

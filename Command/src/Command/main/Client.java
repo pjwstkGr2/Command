@@ -1,11 +1,11 @@
 package Command.main;
 
+import Command.CommandsToExecute.AirConditionerOn;
+import Command.CommandsToExecute.LightOn;
 import Command.Interface.CommandInterface;
 import Command.Invoker.RemoteController;
 import Command.Receiver.AirConditioner;
 import Command.Receiver.Light;
-import CommandsToExecute.AirConditionerOn;
-import CommandsToExecute.LightOn;
 
 public class Client {
 
